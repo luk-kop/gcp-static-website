@@ -1,0 +1,19 @@
+*.pyc
+__pycache__/
+.env
+*.db
+*.log
+.idea/
+venv/
+# Exclude some terraform data
+.terraform*
+*.tfstate
+*.tfstate.*
+**/.terraform/*
+*.tfvars
+crash.log
+crash.*.log
+*.zip
+backend.hcl
+# Custom
+notes*
