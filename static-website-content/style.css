@@ -1,0 +1,28 @@
+body {
+  padding-top: 5rem;
+  background:#FFFFFF;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Courier New'
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.center-image:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scale(1);
+  transition: 0.5s;
+}

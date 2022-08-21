@@ -4,7 +4,8 @@ from google.cloud import storage
 
 
 def update_cache_control(event, context) -> None:
-    """Triggered by a change to a Cloud Storage bucket.
+    """
+    Triggered by a change to a Cloud Storage bucket.
     Args:
          event (dict): Event payload.
          context (google.cloud.functions.Context): Metadata for the event.
